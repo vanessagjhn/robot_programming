@@ -1,13 +1,20 @@
 # BASIC GIT COMMANDS CHEAT SHEET
 
 ## 1. git clone
-**$git clone [repository]**
-Copies an existing Git repository
-<ins> </ins>
+**Purpose:** Copies an existing Git repository
+**Syntax:** $git clone [repository]
+**Options:**
+	- '--branch <name>' : Clone specific branch
+**Example:** git clone http://github.com/<username>/<repository_name>.git'
+
 
 ## 2. git status
-**$git status**
-Shows the current status of your Project
+**Purpose:** Shows the current status of your project
+**Syntax:** $git status
+**Options:**
+	- '-s' / '--short' : Short format output
+**Example:** git status -s
+
 
 ## 3. git add
 **$git add [files/folders]**
