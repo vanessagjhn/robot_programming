@@ -17,17 +17,28 @@
 
 
 ## 3. git add
-**$git add [files/folders]**
-Adds to the staging área the tracked changes in the specifiedx files (temporal)
+**Purpose:** Adds to the staging área the tracked changes in the specifiedx files (temporal)
+**Syntax:** $git add [files/folders]
+**Options:**
+	- '-A' / '--all' : Stage all changes across the entire Git repository
+
 
 ## 4. git commit
-**$git commit -m "description"**
-Adds to the staging area the tracked changes in the specified files (permanent) with a description
+**Purpose:** Adds to the staging area the tracked changes in the specified files (permanent) with a description
+**Syntax:** $git commit -m "description"
+**Options:**
+	- '-m <msg>' : Commit message
+**Example:** git commit -m "message"
+
 
 ## 5. git push
-**$git push**
-Uploads local repository with tracked changes to a remote (online) repository
+**Purpose:** Uploads local repository with tracked changes to a remote (online) repository
+**Syntax:** $git push
+**Options:**
+	- 'origin <branch> : Push to a specific remote branch
+**Example:** git push origin branch
+
 
 ## 6. git log
-**$git log**
-Shows the history of the commits and branches in your project
+**Purpose:** Shows the history of the commits and branches in your project
+**Syntax:** $git log
